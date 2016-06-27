@@ -1,0 +1,199 @@
+/***** 
+GENERAL
+******/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/******
+HEADING
+*******/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+   font-family: 'Paprika', cursive;
+   margin: 15px 0;
+   font-size: 2.5em;
+   color: #9A8FBF;
+}
+/********** 
+  NAVIGATION
+************/
+
+nav {
+  text-align: center;
+  padding: 10px 0; 
+  margin: 20px 0 0;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}  
+
+nav li {
+  display: inline-block;
+  font-family: 'Paprika', cursive;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px; 
+}
+/****
+  FOOTER
+****/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear:both;
+  padding-top: 50px;
+  color: #6F4F7E;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+
+/*************
+PAGE: PORTFOLIO
+**************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #EFBFB0;
+  color:#EFBFB0;
+ 
+}
+
+#gallery li a p{
+  margin: 0;
+  padding: 5%;
+  font-size:0.75em;
+  color: #6F4F7E;
+
+}
+
+/*************
+PAGE: ABOUT
+**************/
+.profile-photo {
+  display: block;
+  max-width: 140px;
+  margin: 0 auto 30px;
+  border-radius:100%;
+  
+}
+
+/***************
+  PAGE: CONTACT
+*****************/
+.contact-info {
+list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display:block
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+/*****           
+COLORS
+*****/
+
+/* SITE BODY*/
+body {
+  background-color: #F8DCD9;
+  color: #EFBFB0;
+}
+
+/* HEADER*/
+header {
+  background: #B8BDD9;
+  border-color: #9A8FBF;
+}
+
+/* NAV BACKGROUND ON MOBILE*/
+nav {
+  background: #9A8FBF;
+}
+
+/* LOGO TEXT */
+ h2 {
+  font-family: 'Paprika', cursive;
+  color: #F8DCD9;
+}
+
+/* LINKS */
+a {
+  color: #6F4F7E;
+}
+
+/* NAV LINK */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* SELECTED NAV LINK */
+nav a.selected, nav a:hover {
+  color: #E8C7E7;
+}
+
